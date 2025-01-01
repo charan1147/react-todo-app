@@ -37,24 +37,24 @@
 
   
   .todo-item.Completed {
-    background-color: #e8f5e9;
-    border-color: #4caf50;
+    background-color: white;
+    border-color: green;
   }
   
   .task-info .task-name {
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: rgba(53, 48, 48, 0.696);
     cursor: pointer;
   }
   
   .task-info .task-name:hover {
-    color: #4caf50;
+    color: green;
   }
   
   .task-desc {
     font-size: 14px;
-    color: #666;
+    color: rgb(36, 35, 35);
     margin: 5px 0;
   }
   
@@ -67,12 +67,12 @@
   .status-label {
     font-size: 14px;
     font-weight: bold;
-    color: #555;
+    color: rgb(39, 39, 39);
   }
   
   .status-select {
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid grey;
     border-radius: 5px;
   }
   
@@ -92,7 +92,7 @@
   }
   
   .edit-btn {
-    background-color: #4caf50;
+    background-color: green;
     color: white;
   }
   
@@ -101,11 +101,11 @@
   }
   
   .delete-btn {
-    background-color: #f44336;
+    background-color: red;
     color: white;
   }
   
   .delete-btn:hover {
-    background-color: #e53935;
+    background-color:rgb(185, 43, 43);
   }
   
